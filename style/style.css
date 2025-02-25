@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #2b2d42; /* Fondo principal */
+    color: #edf2f4; /* Texto principal */
+    display: flex; /* Estructura para el menú lateral */
+    height: 100%; /* Asegura que el contenido principal crezca */
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
+main {
+    margin-left: 70px; /* Deja espacio suficiente para el menú fijo */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh; /* Asegura que siempre tenga altura completa */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #edf2f4;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #8d99ae;
+    margin-top: 10px;
+}
+
+.floating-box {
+    position: fixed;
+    top: 50%; /* Centrado verticalmente */
+    left: 50%; /* Centrado horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste perfecto al centro */
+    background: #4a4e69; /* Fondo del cuadro */
+    padding: 30px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    width: 500px;
+    color: #edf2f4; /* Color del texto */
+    text-align: center;
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Hace que la foto sea circular */
+    object-fit: cover; /* Asegura que la imagen se recorte para adaptarse al círculo */
+    margin-bottom: 20px;
+}
+
+.profile h2 {
+    font-size: 1.6rem;
+    margin: 10px 0;
+}
+
+.profile p {
+    font-size: 1rem;
+    color: #f4a261;
+}
+
+.social-links a {
+    color: #edf2f4;
+    font-size: 1.5rem;
+    margin: 10px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #f4a261; /* Cambio de color en hover */
+}
+
+.social-links a:active {
+    transform: scale(1.1); /* Efecto de aumentar al hacer clic */
+}
