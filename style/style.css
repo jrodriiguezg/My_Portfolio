@@ -5,8 +5,10 @@
     /* Lighter Cyan (Sky-300) */
     --secondary-color: #a78bfa;
     /* Lighter Violet (Violet-400) */
-    --glass-bg: rgba(30, 41, 59, 0.7);
-    --glass-border: rgba(255, 255, 255, 0.1);
+    --glass-bg: rgba(30, 41, 59, 0.85);
+    /* Increased opacity and slightly darker for contrast */
+    --glass-border: rgba(255, 255, 255, 0.3);
+    /* More visible border */
     --card-hover: rgba(56, 189, 248, 0.1);
     --font-main: 'Outfit', sans-serif;
 }
