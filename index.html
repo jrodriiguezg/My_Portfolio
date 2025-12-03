@@ -1,45 +1,174 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
+
 <head>
-	<title>Portafolio</title>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-        <link href="./style/style.css"  rel="stylesheet" type="text/css">
-        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Ra Rodriguez Gil | SysAdmin & Maker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
-            <div class="floating-box">
-		  
-           <div class="profile">
-                 <!--<img src="tu-foto.jpg" alt="Tu Foto" class="profile-photo"> --> 	 	 
-                    <h2>Juan Ra Rodriguez Gil</h2>
-                    <p>Administrador de sistemas pero en mi tiempo libre hago proyectos de electronica<p>
+    <div class="background-gradient"></div>
+
+    <nav class="glass-nav">
+        <div class="logo">JR</div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/juanraulrodriguezgil/" target="_blank" title="LinkedIn"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/jrodriiguezg" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:jrodriiguezmaker@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content glass-card fade-in-up">
+                <div class="profile-image-container">
+                    <!-- Placeholder for profile image if user wants one, or use an icon/avatar -->
+                    <img src="https://avatars.githubusercontent.com/u/79581116?v=4" alt="Juan Ra Rodriguez Gil"
+                        class="profile-image">
                 </div>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/juanraulrodriguezgil/" target="_blank" title="LinkedIn">
-                        <i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/jrodriiguezg" target="_blank" title="GitHub">
-                        <i class="fab fa-github"></i></a>
-                    <a href="mailto:juanraul.rodriguezgil03@gmail.com" target="_blank" title="mail">
-			<i class="fa-solid fa-envelope"></i>
-		    <a href="https://github.com/jrodriiguezg/proyects/wiki" target="_blank" title="ProyectWiki">
-			 <i class="fa-solid fa-square-rss"></i>
+                <h1>Juan Ra Rodriguez Gil</h1>
+                <h2 class="subtitle">SysAdmin & Maker</h2>
+                <p class="bio">Apasionado de la electrónica, informática, Python y Shellscript.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">Ver Proyectos</a>
                 </div>
             </div>
-        </main>
-    
+        </section>
 
-        <div id="derecha"> 
-                          
+        <section id="about" class="about-section">
+            <div class="glass-card fade-in about-card">
+                <h2 class="section-title">Sobre Mí</h2>
 
+                <div class="about-content">
+                    <h3>Perfil Profesional</h3>
+                    <p>
+                        Soy un apasionado de la tecnología con mentalidad <strong>"Maker"</strong>, enfocado en la
+                        integración de software con el mundo físico.
+                        Disfruto especialmente los desafíos que requieren habilidades híbridas: desde la administración
+                        de sistemas hasta el montaje y soldadura de componentes electrónicos.
+                    </p>
 
-        </div>
+                    <h3>Sistemas y Herramientas</h3>
+                    <ul class="about-list">
+                        <li>
+                            <strong>Linux:</strong> Usuario avanzado de <strong>Fedora</strong> en mi día a día, con
+                            experiencia sólida en <strong>Red Hat</strong>, <strong>Debian</strong> y
+                            <strong>Ubuntu</strong>.
+                            Me desenvuelvo con fluidez en la terminal y la administración del sistema.
+                        </li>
+                        <li>
+                            <strong>Hardware e IoT:</strong> Experiencia práctica con <strong>Arduino</strong>,
+                            <strong>Raspberry Pi</strong> y <strong>ESP32</strong>,
+                            incluyendo diseño de circuitos y soldadura.
+                        </li>
+                    </ul>
 
+                    <h3>Enfoque de trabajo</h3>
+                    <p>
+                        Me defino por una <b class="text-white">gran capacidad autónoma</b> y una <b
+                            class="text-white">actitud resolutiva</b> ante los problemas técnicos.
+                        Aunque mi perfil no es de desarrollador de software puro, poseo los conocimientos de
+                        programación necesarios (scripting)
+                        para automatizar tareas y dar funcionalidad a mis proyectos de hardware.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-        <div id="pie">
+        <section id="skills" class="skills-section">
+            <h2 class="section-title fade-in">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-card fade-in">
+                    <i class="fas fa-server"></i>
+                    <h3>Administracion de sistemas</h3>
+                </div>
+                <div class="skill-card glass-card fade-in">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Electrónica</h3>
+                </div>
+                <div class="skill-card glass-card fade-in">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card glass-card fade-in">
+                    <i class="fas fa-terminal"></i>
+                    <h3>Shellscript</h3>
+                </div>
+            </div>
+        </section>
 
-                    
-        </div>
-		
-	
+        <section id="projects" class="projects-section">
+            <h2 class="section-title fade-in">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card glass-card fade-in">
+                    <div class="project-icon"><i class="fas fa-robot"></i></div>
+                    <h3>Neo (OpenKompai-Nano)</h3>
+                    <p>Asistente virtual avanzado para Raspberry Pi.</p>
+                    <a href="https://github.com/jrodriiguezg/OpenKompai_nano" target="_blank" class="project-link">Ver
+                        Código <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card glass-card fade-in">
+                    <div class="project-icon"><i class="fas fa-comments"></i></div>
+                    <h3>COLEGA</h3>
+                    <p>Copiloto de Lenguaje para Entornos de Grupo y Administración.</p>
+                    <a href="https://github.com/jrodriiguezg/COLEGA" target="_blank" class="project-link">Ver Código <i
+                            class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card glass-card fade-in">
+                    <div class="project-icon"><i class="fas fa-music"></i></div>
+                    <h3>SoundGaze</h3>
+                    <p>Proyecto relacionado con audio y visualización.</p>
+                    <a href="https://github.com/jrodriiguezg/SoundGaze/wiki" target="_blank" class="project-link">Ver
+                        Wiki <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card glass-card fade-in">
+                    <div class="project-icon"><i class="fas fa-gamepad"></i></div>
+                    <h3>GameCathode</h3>
+                    <p>Documentación y recursos para gaming.</p>
+                    <a href="https://gamecathode.readthedocs.io/es/docs-english/" target="_blank"
+                        class="project-link">Ver Docs <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card glass-card fade-in">
+                    <div class="project-icon"><i class="fas fa-book"></i></div>
+                    <h3>ApuntesASIR</h3>
+                    <p>Recopilación de apuntes para Administración de Sistemas.</p>
+                    <a href="https://apuntesasir.readthedocs.io/es/latest/" target="_blank" class="project-link">Ver
+                        Docs <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="project-card glass-card fade-in">
+                    <div class="project-icon"><i class="fab fa-discord"></i></div>
+                    <h3>PRRPC</h3>
+                    <p>Pico Real Rich Presence para integración con Discord.</p>
+                    <a href="https://github.com/jrodriiguezg/PRRPC/tree/v2" target="_blank" class="project-link">Ver
+                        Código <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <p>&copy; 2025 Juan Ra Rodriguez Gil. Hecho con <i class="fas fa-heart"></i> y Vibe Coding.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
